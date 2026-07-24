@@ -1,8 +1,29 @@
 aid: berry-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/berry-health.png
 name: Berry Health
-description: 'Berry Health is a company surfaced as a portfolio company of general-catalyst, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Berry Health is a consumer digital-health company founded in 2023 by British-Ghanaian
+  physician Dr. Fredua Akosa, headquartered in Accra, Ghana, that delivers online medical consultations,
+  prescriptions and nationwide medication delivery for stigmatized and underserved conditions — sexual
+  health, mental health and therapy, dermatology and skincare, and hair loss. Patients consult licensed
+  doctors and clinical psychologists remotely, receive a personalized treatment regimen, and have
+  medication delivered discreetly to their door. The company is licensed by Ghana''s Health Facility
+  Regulatory Agency and the Data Protection Commission. In June 2023 it raised a $1.6M pre-seed round
+  co-led by Lightspeed Venture Partners — Lightspeed''s first investment in Africa — and General
+  Catalyst, with angels including Reddit COO Jen Wong, Thirty Madison co-founders Demetri Karagas and
+  Steven Gutentag, and former US Surgeon General Regina Benjamin. Berry Health is a direct-to-consumer
+  telehealth service; as of this enrichment pass it publishes no public API, developer portal, or SDK,
+  and its consumer web properties (ourberry.com, app.ourberry.com, ourberry.io) are offline or parked.'
 url: https://raw.githubusercontent.com/api-evangelist/berry-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +33,46 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Digital Health
+- Telehealth
+- Telemedicine
+- Consumer Health
+- Mental Health
+- Dermatology
+- Pharmacy Delivery
+- Africa
+- Ghana
+- Venture Backed
+- General Catalyst
+- Lightspeed Venture Partners
 apis: []
+common:
+- type: DomainSecurity
+  url: security/berry-health-domain-security.yml
+- type: Website
+  url: https://ourberry.com/
+- type: Application
+  url: https://app.ourberry.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/berry-health
+- type: Twitter
+  url: https://x.com/theberryhealth
+- type: Instagram
+  url: https://www.instagram.com/theberryhealth/
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/berry-health
+- type: LLMsTxt
+  url: llms/berry-health-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

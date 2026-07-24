@@ -1,0 +1,30 @@
+# Berry Health
+
+> Consumer digital-health company founded in 2023 in Accra, Ghana by Dr. Fredua Akosa. Berry Health delivers online medical consultations, prescriptions and nationwide medication delivery for stigmatized and underserved conditions — sexual health, mental health and therapy, dermatology/skincare, and hair loss. Patients consult licensed doctors and clinical psychologists remotely and receive medication discreetly at their door. Licensed by Ghana's Health Facility Regulatory Agency and the Data Protection Commission. Raised a $1.6M pre-seed in June 2023 co-led by Lightspeed Venture Partners (its first Africa investment) and General Catalyst.
+
+Berry Health is a direct-to-consumer telehealth service. As of 2026-07-20 it publishes **no public API, developer portal, API reference, SDK, CLI, webhook surface, or .well-known discovery documents**. Its consumer web properties are currently offline or parked: ourberry.com returns a Framer "Site Not Found" 404, app.ourberry.com returns 503, and ourberry.io / our-berry.io / berry.health / ourberry.co / berryhealth.co resolve to domain-parking landers.
+
+## Company
+
+- [Website](https://ourberry.com/): Consumer site (currently returning 404)
+- [Application](https://app.ourberry.com/): Patient application (currently returning 503)
+- [LinkedIn](https://www.linkedin.com/company/berry-health): Company profile
+- [X / Twitter](https://x.com/theberryhealth): Company account
+- [Instagram](https://www.instagram.com/theberryhealth/): Company account
+- [Crunchbase](https://www.crunchbase.com/organization/berry-health): Funding profile
+
+## Investors
+
+- [General Catalyst portfolio](https://www.generalcatalyst.com/companies/berry-health): Co-lead of the 2023 pre-seed
+- [Lightspeed Venture Partners portfolio](https://lsvp.com/company/berry-health/): Co-lead of the 2023 pre-seed
+
+## Artifacts
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/berry-health/refs/heads/main/apis.yml): API Evangelist catalog entry
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/berry-health/refs/heads/main/security/berry-health-domain-security.yml): Probed TLS/DNSSEC/CAA/SPF/DMARC posture
+- [Well-known index](https://raw.githubusercontent.com/api-evangelist/berry-health/refs/heads/main/well-known/berry-health-well-known.yml): Negative .well-known probe record
+
+## Optional
+
+- No OpenAPI, AsyncAPI, GraphQL, gRPC, or Postman artifacts are published by this provider.
+- No OAuth, API key, or other authentication surface is documented publicly.

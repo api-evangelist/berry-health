@@ -1,0 +1,28 @@
+generated: '2026-07-20'
+method: searched
+source: live probe of https://ourberry.com/.well-known/*
+host: https://ourberry.com
+note: >-
+  No .well-known discovery documents are published. Berry Health's consumer web
+  properties are currently offline or parked — ourberry.com serves a Framer
+  "Site Not Found" 404, app.ourberry.com returns 503, and ourberry.io /
+  our-berry.io / berry.health / ourberry.co / berryhealth.co all resolve to
+  domain-parking landers. Recorded as a negative result so future re-runs can
+  detect a change; no WellKnown pointer is wired because nothing was found.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+other_hosts:
+- host: https://app.ourberry.com
+  status: 503
+  note: application host unreachable; no .well-known probe possible
